@@ -2,5 +2,5 @@
 
 [python]
 files = **/*.py
-bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
+bears = SpaceConsistencyBear, PyLintBear
 use_spaces = true
