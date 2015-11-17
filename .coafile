@@ -2,5 +2,6 @@
 
 [python]
 files = **/*.py
-bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
+bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear, LineLengthBear
 use_spaces = true
+max_line_length = 80
