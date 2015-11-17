@@ -4,3 +4,7 @@
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
 use_spaces = true
+
+[matlab]
+files = **/*.m
+bears = MatlabIndentationBear
