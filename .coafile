@@ -4,3 +4,7 @@
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
 use_spaces = true
+
+[c]
+files = **/*.c
+bears = IndentBear, ClangBear
