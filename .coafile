@@ -1,5 +1,9 @@
 [Default]
 
+[ruby]
+files = **/*.rb
+bears = RubyLintBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
