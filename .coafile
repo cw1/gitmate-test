@@ -1,5 +1,9 @@
 [Default]
 
+[docker]
+files = Dockerfile
+bears = DockerfileLintBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
