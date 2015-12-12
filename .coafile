@@ -1,5 +1,9 @@
 [Default]
 
+[js]
+files = **/*.js
+bears = JSHintBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
