@@ -1,5 +1,9 @@
 [Default]
 
+[json]
+files = **/*.json
+bears = JSONFormatBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
