@@ -1,5 +1,9 @@
 [Default]
 
+[cs]
+files = **/*.cs
+bears = CSharpLintBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
