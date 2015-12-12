@@ -1,5 +1,9 @@
 [Default]
 
+[reST]
+files = **/*.rst
+bears = reSTLintBear
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
