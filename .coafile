@@ -2,7 +2,7 @@
 
 [markdown]
 files = **/*.md
-bears = AlexBear
+bears = AlexBear, MarkdownBear
 
 [python]
 files = **/*.py
