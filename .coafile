@@ -1,5 +1,10 @@
 [Default]
 
+[cpp]
+files = **/*.(cpp|h)
+bears = IndentBear, ClangBear
+clang_cli_options = -Wall, -Wextra
+
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
