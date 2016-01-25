@@ -4,3 +4,6 @@
 files = **/*.py
 bears = SpaceConsistencyBear, PEP8Bear, PyCommentedCodeBear, PyUnusedCodeBear
 use_spaces = true
+
+[commit]
+bears = GitCommitBear
